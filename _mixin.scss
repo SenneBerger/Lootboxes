@@ -1,0 +1,11 @@
+@mixin border{
+  border: 5px solid white;
+}
+@mixin blur{
+  -webkit-box-shadow: 0 0 30px 16px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 0 30px 16px rgba(0,0,0,0.75);
+  box-shadow: 0 0 30px 16px rgba(0,0,0,0.75);
+}
+@mixin radius{
+  border-radius: 15px;
+}
